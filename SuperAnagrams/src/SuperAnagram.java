@@ -2,6 +2,10 @@ public class SuperAnagram {
 	char[] matchArray; // creates a character array for the string that must match
 	char[] initialArray; // creates a character array for the string the match array must match
 	int[] scoreboard = new int[26]; // creates an integer array with 26 positions to represent every letter of the alphabet
+	
+		/**
+		 * Constructs SuperAnagram with no arguments
+		 */
 		public SuperAnagram() {
 		}
 		/**
